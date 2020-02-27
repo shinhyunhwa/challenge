@@ -1,0 +1,57 @@
+:root {
+  --header-background-color: white;
+  --text-color: gray;
+}
+.left-header img {
+  width: 500px;
+  height: 150px;
+}
+main {
+  text-align: left;
+}
+span {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.top-container {
+  display: block;
+  font-size: 15px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.top-container :hover {
+  color: orange;
+}
+
+.top-container .title {
+  display: block;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+.input-container {
+  margin-bottom: 30px;
+}
+.input-container input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 10px;
+  outline: none;
+  width: 30%;
+}
+.input-container input::placeholder {
+  color: var(--text-color);
+}
+button {
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  width: 35%;
+  height: 50px;
+  background-color: rgb(76, 143, 245);
+}
