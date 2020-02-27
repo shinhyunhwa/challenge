@@ -1,0 +1,125 @@
+:root {
+  --header-background-color: white;
+  --text-color: gray;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.float--left {
+  float: left;
+}
+.float--right {
+  float: right;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  background-color: var(--header-background-color);
+}
+.header-group {
+  width: 100%;
+  background-color: var(--header-background-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.left-header {
+  margin-left: 10%;
+}
+.left-header img {
+  width: 400px;
+  height: 150px;
+}
+.right-header {
+  margin-right: 10%;
+  height: 100%;
+  display: flex;
+}
+.right-header .network-selector {
+  margin-top: 10%;
+  align-items: center;
+  border-radius: 20px;
+  /* box-sizing: border-box; */
+  border: 1px solid gray;
+  height: 30px;
+  width: 180px;
+  padding: 2px;
+}
+.right-header .network-selector select {
+  outline: none !important;
+  border: none !important;
+  width: 80%;
+  height: 100%;
+  background-color: var(--header-background-color);
+  margin-left: 12px;
+}
+
+/* MAIN */
+main {
+  text-align: center;
+}
+span {
+  color: var(--text-color);
+  font-size: 20px;
+}
+/* MAIN - TOP-CONTAINER */
+.top-container {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.top-container img {
+  width: 180px;
+}
+.top-container span {
+  display: block;
+  margin-top: 10px;
+}
+.top-container .title {
+  display: block;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+}
+
+/* MAIN - INPUT-CONTAINER */
+.input-container {
+  margin-bottom: 30px;
+}
+.input-container input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  outline: none;
+  width: 30%;
+}
+.input-container input::placeholder {
+  color: var(--text-color);
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  width: 35%;
+  height: 50px;
+  background-color: rgba(255, 146, 43, 0.5);
+}
+.activate {
+  background-color: rgba(255, 146, 43, 1);
+  cursor: pointer;
+}
+
+.bottom-container span {
+  display: block;
+  margin-bottom: 10px;
+}
+.bottom-container span:nth-child(2) {
+  cursor: pointer;
+  color: rgba(255, 146, 43, 1);
+}
