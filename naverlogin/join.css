@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+.top-container {
+  display: green;
+  font-size: 30px;
+  color: green;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.middle-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+  font-size: 15px;
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 17px;
+  margin: 10px;
+  width: 25%;
+  height: 40px;
+  background-color: green;
+}
