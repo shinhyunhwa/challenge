@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="join.css" />
+    <title>Naver</title>
+  </head>
+  <body>
+    <div class="top-container">
+      <span class="title"
+        ><center><b>회원가입</b></center></span
+      >
+    </div>
+    <form>
+      <div class="middle-container"><b>아이디</b></div>
+      <dlv class="form"> <input type="text", name="id"/><br /></dlv>
+
+      <div class="middle-container"><b>비밀번호</b></div>
+      <dlv class="form"> <input type="password" , name="pwd" /><br /></dlv>
+
+      <div class="middle-container"><b>비밀번호 재확인</b></div>
+      <dlv class="form"> <input type="password" , name="pwdcheck" /><br /></dlv>
+
+      <div class="middle-container"><b>이름</b></div>
+      <dlv class="form"> <input type="text" , name="name"/><br /></dlv>
+
+      <div class="middle-container"><b>생년월일</b></div>
+      <dlv class="form">
+        <input type="text" , name="year" , placeholder="년(4자)"/>
+        <select style="width:100px; height:25px;">
+          <option selected><b>월</b></option>
+          <option> 1월 </option>
+          <option> 2월 </option>
+          <option> 3월 </option>
+          <option> 4월 </option>
+          <option> 5월 </option>
+          <option> 6월 </option>
+          <option> 7월 </option>
+          <option> 8월 </option>
+          <option> 9월 </option>
+          <option> 10월 </option>
+          <option> 11월 </option>
+          <option> 12월 </option>
+        </select>
+        <input type="text" , name="day" , placeholder="일"
+      /></dlv>
+
+      <div class="middle-container"><b>성별</b></div>
+      <dlv class="form">
+        <select style="width: 400px; height:25px;"
+          ><option selected><b>성별</b></option> </option
+          ><option>남자</option
+          ><option>여자</option></select
+        ><br
+      /></dlv>
+
+      <div class="middle-container"><b>이메일</b></div>
+      <dlv class="form"> <input type="text" , name="e-mail" /></dlv>
+
+      <div class="middle-container"><b>휴대전화</b></div>
+      <dlv class="form"> <input type="text" , name="phone" /></dlv>
+
+      <div class="middle-container"><b>관심사</b></div>
+      <dlv class="form"> <input type="text" , name="interesting" /><br /></dlv>
+
+      <span
+        ><u><b> 약관에 동의합니다.</b></u></span
+      >
+      <dlv class="form"> <input type="checkbox" ,name="agree"/></dlv>
+
+      <div class="button-container">
+        <button id="reset">초기화</button>
+        <button id="join">가입하기</button>
+      </div>
+    </form>
+  </body>
+</html>
